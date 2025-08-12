@@ -28,7 +28,7 @@ export default function Projects() {
   },[])
   return (
     <motion.div
-      initial={{ opacity: 0, x: -100 }}
+      initial={{ opacity: 0, x: - 100 }}
       transition={{ duration: 1 }}
       whileInView={{ opacity: 1, x: 0 }}
       
